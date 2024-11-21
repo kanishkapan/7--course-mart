@@ -1,3 +1,4 @@
+import FeaturesSection from "./components/FeaturesSection";
 import Header from "./components/Header";
 import ImportedVibes from "./components/ImportVibes";
 import ProductCard from "./components/ProductsCard";
@@ -13,6 +14,7 @@ export default function App() {
     <UniqueScreen/>
     <ImportedVibes/>
     <ProductCard/>
+    <FeaturesSection/>
    
     
     </>
