@@ -1,7 +1,19 @@
+import Header from "./components/Header";
+import ImportedVibes from "./components/ImportVibes";
+import SnacksSection from "./components/Snacksection";
+
+  import UniqueScreen from "./components/UniqueScreen";
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <>
+    
+    <Header/>
+    <SnacksSection/>
+    <UniqueScreen/>
+    <ImportedVibes/>
+   
+    
+    </>
+  
   )
 }
