@@ -34,6 +34,9 @@ const YourWordsOurHype = () => {
           src="https://via.placeholder.com/300" // Replace with the image URL
           alt="Woman"
           className="w-full md:col-span-3 rounded-md"
+          className="w-full md:col-span-3 rounded-md"
+          
+
         />
       </div>
     </div>
