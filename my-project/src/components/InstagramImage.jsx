@@ -1,27 +1,20 @@
 import React from 'react';
 
 const InstagramImage = () => {
-  const imageStyle = {
-    width: '100%', // Make the image take full width of the container
-    height: 'auto', // Maintain aspect ratio
-    display: 'block', // Prevent extra gaps for inline elements
-  };
-
   return (
-    <div>
-      <div>
+    <div className="space-y-6 p-6 m-4">
+      <div className="p-4 bg-white rounded-sm shadow-md">
         <img
-          src=".//Images/image 37.png" 
-          // Replace with your image URL
+          src=".//Images/image 37.png" // Replace with your image URL
           alt="First"
-          style={imageStyle}
+          className="w-full h-auto block rounded-lg"
         />
       </div>
-      <div>
+      <div className="p-4 bg-white rounded-sm shadow-md">
         <img
-          src=".//Images/image 36.png"  // Replace with your image URL
+          src=".//Images/image 36.png" // Replace with your image URL
           alt="Second"
-          style={imageStyle}
+          className="w-full h-auto block rounded-lg"
         />
       </div>
     </div>
